@@ -29,6 +29,7 @@ namespace MT.CSGPortal.Utility
                using (var indexSearcher = new IndexSearcher(directory))
                {
                    //Prepare the query containing all the fields that has to be searched
+                   //Dharanish
                    Query queryObj = PrepareQueryParser(entityLstObj[0], searchParameter);
 
                    //perform search on the index
