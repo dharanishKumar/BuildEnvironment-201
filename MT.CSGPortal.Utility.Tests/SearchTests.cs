@@ -14,6 +14,7 @@ namespace MT.CSGPortal.Utility.Tests
         [TestMethod]
         public void SearchArchitectsTest()
         {
+            //Dharanish
             var obj = new Search();
             SearchResult<MindBasicProfile> mindProfileDtoObj;
             IMindDataAccess dataAccessObj = new MindDataAccess();
