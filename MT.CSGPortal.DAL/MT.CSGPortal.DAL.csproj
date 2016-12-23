@@ -46,10 +46,6 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.0.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
-    <Reference Include="MT.CSGPortal.Utility, Version=1.0.0.33168, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\DLLs\MT.CSGPortal.Utility.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Configuration" />
@@ -88,6 +84,10 @@
     <ProjectReference Include="..\MT.CSGPortal.Portable.Entities\MT.CSGPortal.Portable.Entities.csproj">
       <Project>{f21378a1-68f4-4802-bf7d-58632d851889}</Project>
       <Name>MT.CSGPortal.Portable.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MT.CSGPortal.Utility\MT.CSGPortal.Utility.csproj">
+      <Project>{da2f43be-834f-4559-9a20-7265178e54a8}</Project>
+      <Name>MT.CSGPortal.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
