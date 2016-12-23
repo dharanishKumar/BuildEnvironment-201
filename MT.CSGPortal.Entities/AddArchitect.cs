@@ -9,6 +9,7 @@ namespace MT.CSGPortal.Entities
 {
     public class AddArchitect
     {
+        //Dharanish
         private Messages messages = new Messages();
         private Mind mind;
         private IDictionary<int, string> contacts = new Dictionary<int, string>();
